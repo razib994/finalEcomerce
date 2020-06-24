@@ -1,7 +1,7 @@
     @extends('admin.pages.back-end.master')
 
     @section('title')
-    Manage Category
+    Manage Product
     @endsection
     @section('content')
    <!-- Content Header (Page header) -->

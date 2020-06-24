@@ -1,20 +1,20 @@
     @extends('admin.pages.back-end.master')
 
     @section('title')
-    Edit Category
+    Edit Brand
     @endsection
     @section('content')
 
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        General Form Elements
+        Brand Form Edit
         <small>Preview</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Forms</a></li>
-        <li class="active">General Elements</li>
+        <li><a href="#">Brand</a></li>
+        <li class="active"> Edit</li>
       </ol>
     </section>
 
@@ -26,42 +26,35 @@
           <!-- general form elements -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Quick Example</h3>
+              <h3 class="box-title"> Edit Brand </h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
             <form class="form-horizontal" role="form">
               <div class="box-body">
                 <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Title</label>
+                  <label for="inputEmail3" class="col-sm-2 control-label">Brand Title</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputEmail3" placeholder="Title">
+                    <input type="text" class="form-control" id="inputEmail3" name="name" placeholder="Title">
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Description</label>
+                  <label for="inputEmail3" class="col-sm-2 control-label">Brand Description</label>
 
                   <div class="col-sm-10">
-                     <textarea class="form-control" rows="3" placeholder="Description ..."></textarea>
+                     <textarea class="form-control" rows="3" name="description" placeholder="Description ..."></textarea>
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">File input</label>
+                  <label for="inputEmail3" class="col-sm-2 control-label"> Brand Image Upload</label>
 
                   <div class="col-sm-10">
-                   <input type="file" id="exampleInputFile">
+                   <input type="file" id="exampleInputFile" name="image">
 
                    <p class="help-block">Example block-level help text here.</p>
                  </div>
                </div>
-               <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Parent ID</label>
-
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputEmail3" placeholder="Parent ID">
-                  </div>
-                </div>
                <div class="form-group">
                 <label for="inputEmail3" class="col-sm-2 control-label"></label>
 

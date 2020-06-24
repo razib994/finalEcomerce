@@ -1,19 +1,19 @@
     @extends('admin.pages.back-end.master')
 
     @section('title')
-    Manage Category
+    Manage Brand
     @endsection
     @section('content')
    <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Data Tables
+        Brand Data Show
         <small>advanced tables</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Tables</a></li>
-        <li class="active">Data tables</li>
+        <li><a href="#">Brand</a></li>
+        <li class="active">Data Show</li>
       </ol>
     </section>
 
@@ -23,7 +23,7 @@
         <div class="col-xs-12">
           <div class="box box-primary">
             <div class="box-header">
-              <h3 class="box-title">Data Table With Full Features</h3>
+              <h3 class="box-title">Brand Data Show</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">

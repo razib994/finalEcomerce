@@ -26,7 +26,7 @@
           <!-- general form elements -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Category</h3>
+              <h3 class="box-title">Category Create</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
@@ -36,21 +36,21 @@
                   <label for="inputEmail3" class="col-sm-2 control-label">Title</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputEmail3" placeholder="Title">
+                    <input type="text" class="form-control" name="name" id="inputEmail3" placeholder="Title">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputEmail3" class="col-sm-2 control-label">Description</label>
 
                   <div class="col-sm-10">
-                     <textarea class="form-control" rows="3" placeholder="Description ..."></textarea>
+                     <textarea class="form-control" rows="3" name="description" placeholder="Description ..."></textarea>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputEmail3" class="col-sm-2 control-label">File input</label>
 
                   <div class="col-sm-10">
-                   <input type="file" id="exampleInputFile">
+                   <input type="file" id="exampleInputFile" name="image">
 
                    <p class="help-block">Example block-level help text here.</p>
                  </div>
@@ -59,7 +59,7 @@
                   <label for="inputEmail3" class="col-sm-2 control-label">Parent ID</label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputEmail3" placeholder="Parent ID">
+                    <input type="text" class="form-control" name="parent_id" id="inputEmail3" placeholder="Parent ID">
                   </div>
                 </div>
                <div class="form-group">
